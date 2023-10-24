@@ -1,0 +1,23 @@
+#NEXUS
+
+	Begin taxa;
+	Dimensions ntax=12;
+	Taxlabels
+		agave
+		black_pepper
+		cabbage
+		cotton
+		cucumber
+		garlic
+		kiwi_fruit
+		rice
+		sunflower
+		tobacco
+		tomato
+		walnut
+		;
+End;
+
+Begin trees;
+tree TREE1 = [&U](((((((tobacco[&index=7]:0.004860[&brlen_95%_HPD={0.000945,0.00988}],tomato[&index=8]:0.011082[&brlen_95%_HPD={0.004276,0.016858}])[&index=13,posterior=1.000000]:0.046629[&brlen_95%_HPD={0.031245,0.062838}],sunflower[&index=6]:0.072280[&brlen_95%_HPD={0.051353,0.092568}])[&index=14,posterior=0.920107]:0.010444[&brlen_95%_HPD={0.001932,0.01947}],kiwi_fruit[&index=5]:0.035517[&brlen_95%_HPD={0.024317,0.049175}])[&index=15,posterior=0.647137]:0.004484[&brlen_95%_HPD={3e-06,0.010763}],((cabbage[&index=12]:0.070168[&brlen_95%_HPD={0.052543,0.089293}],cotton[&index=11]:0.041697[&brlen_95%_HPD={0.02917,0.057257}])[&index=16,posterior=0.998668]:0.016363[&brlen_95%_HPD={0.006525,0.026573}],(cucumber[&index=9]:0.049221[&brlen_95%_HPD={0.033573,0.064816}],walnut[&index=10]:0.027335[&brlen_95%_HPD={0.017183,0.040743}])[&index=17,posterior=0.988016]:0.014118[&brlen_95%_HPD={0.004917,0.02334}])[&index=18,posterior=0.852197]:0.007062[&brlen_95%_HPD={0.001099,0.014231}])[&index=19,posterior=1.000000]:0.033716[&brlen_95%_HPD={0.018735,0.051643}],black_pepper[&index=4]:0.080841[&brlen_95%_HPD={0.058933,0.10323}])[&index=20,posterior=1.000000]:0.029932[&brlen_95%_HPD={0.015303,0.047437}],rice[&index=3]:0.124976[&brlen_95%_HPD={0.092523,0.156433}])[&index=21,posterior=0.993342]:0.015200[&brlen_95%_HPD={0.00356,0.027386}],agave[&index=1]:0.037168[&brlen_95%_HPD={0.024004,0.051265}],garlic[&index=2]:0.023429[&brlen_95%_HPD={0.013176,0.034296}])[&index=22,posterior=1.000000]:0.000000;
+End;

@@ -1,0 +1,64 @@
+# load alignment
+data <- readDiscreteCharacterData("sample.fasta")
+
+# taxon info
+num_taxa <- data.ntaxa()
+num_branches <- 2 * num_taxa - 3 
+taxa <- data.taxa()
+
+# moves
+moves    = VectorMoves()
+monitors = VectorMonitors()
+
+# transition rate matrix
+er_prior <- v(1,1,1,1,1,1)
+er ~ dnDirichlet(er_prior)
+moves.append( mvBetaSimplex(er, weight=3) )
+moves.append( mvDirichletSimplex(er, weight=1) )
+pi_prior <- v(1,1,1,1)
+pi ~ dnDirichlet(pi_prior)
+moves.append( mvBetaSimplex(pi, weight=2) )
+moves.append( mvDirichletSimplex(pi, weight=1) )
+Q := fnGTR(er,pi)
+
+# topology prior
+topology ~ dnUniformTopology(taxa)
+
+# NNI+SPR
+moves.append( mvNNI(topology, weight=num_taxa) )
+moves.append( mvSPR(topology, weight=num_taxa/10.0) )
+for (i in 1:num_branches) {
+   br_lens[i] ~ dnExponential(10.0)
+   moves.append( mvScale(br_lens[i]) )
+}
+TL := sum(br_lens)
+
+# phylogeny
+psi := treeAssembly(topology, br_lens)
+
+# Alpha
+alpha ~ dnUniform( 0.0, 10 )
+sr := fnDiscretizeGamma( alpha, alpha, 5 ) # discrete gamma w 5 categories
+moves.append( mvScale(alpha, weight=2.0) )
+
+# set up everything
+seq ~ dnPhyloCTMC(tree=psi, Q=Q, siteRates=sr, type="DNA")
+seq.clamp(data)
+mymodel = model(Q)
+monitors.append( mnModel(filename="output/GTR+G5/sample_GTR+G5.log", printgen=10) )
+monitors.append( mnFile(filename="output/GTR+G5/sample_GTR+G5.trees", printgen=10, psi) )
+monitors.append( mnScreen(printgen=100, TL) )
+mymcmc = mcmc(mymodel, monitors, moves)
+
+# burnin
+mymcmc.burnin(10000,100)
+
+# run
+mymcmc.run(generations=10000)
+
+# summarize
+treetrace = readTreeTrace("output/GTR+G5/sample_GTR+G5.trees", treetype="non-clock")
+map_tree = mapTree(treetrace,"output/GTR+G5/sample_GTR+G5_MAP.tree")
+
+# quit
+q()
