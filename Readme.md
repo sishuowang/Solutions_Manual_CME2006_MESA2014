@@ -10,7 +10,7 @@ We hope the solutions manual plays a tiny role in helping people better understa
 # Notes
 1. The solutions manual has NOT been reviewed, so by no means are the solutions to be taken as a “standard answer”. Instead, we aim to help biologists better understand computational molecular evolution by providing
    * very detailed step-by-step solutions
-   * code as R as possible (as that's familiar to most biologiststs), from **programming** to **caculus, linear algebra and statistical computation**
+   * code as R as possible (as that's familiar to most biologists), from **programming** to **calculus, linear algebra and statistical computation**
    * alternative solutions where possible.
 
 2. The problems cover only a small part of the books so it is highly recommended to carefully read the original book for those interested.
