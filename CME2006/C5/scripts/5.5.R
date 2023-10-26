@@ -3,10 +3,11 @@
 
 ########################################
 lnl_JC69 <- function(mu, t, n, x){
-    d <- mu * 2*t
-    prior <- log(dexp(mu, 1/0.15)) + log(dexp(t,1))
-    lnl <- x*log(3/4-3/4*exp(-4/3*d)) + (n-x)*log(1/4+3/4*exp(-4/3*d))
-    return(prior+lnl)
+    d <- 2 * mu * t
+    lnprior <- log(dexp(mu, 1)) + log(dexp(t,1/0.15))
+    #lnl <- x*log(3/4-3/4*exp(-4/3*d)) + (n-x)*log(1/4+3/4*exp(-4/3*d))
+    lnl <- x*log(3/4-3/4*exp(-4*d/3)) + (n-x)*log(1/4+3/4*exp(-4*d/3))
+    return(lnprior+lnl)
 }
 
 do_mcmc <- function(w, nsample, n, x){
@@ -25,7 +26,6 @@ do_mcmc <- function(w, nsample, n, x){
         }
         mus[i] <- mu
 
-        if(1>0){
         t_new <- runif(1, t-w/2, t+w/2)
         t_new <- ifelse(t_new>=0, t_new, t)
         lnl_new <- lnl_JC69(mu, t_new, n, x)
@@ -36,7 +36,6 @@ do_mcmc <- function(w, nsample, n, x){
             accepts.t[i] <- 1
         }
         ts[i] <- t
-        }
     }
     return(list(mus=mus, ts=ts, accepts.mu=accepts.mu, accepts.t=accepts.t))
 }
@@ -44,9 +43,9 @@ do_mcmc <- function(w, nsample, n, x){
 
 ########################################
 x <- 90; n<-948
-w <- 0.3; nsample <- 100000
+w <- 0.3; nsample <- 1e6
 
-for(w in seq(0.1,2,0.1)){
+for(w in seq(0.1,1,0.1)){
     res <- do_mcmc(w=w, nsample=nsample, n=n, x=x)
     mus <- res$mus; ts<-res$ts ; accepts.mu <- res$accepts.mu;  accepts.t <- res$accepts.t
     burnin <- round(nsample/2)
@@ -60,5 +59,3 @@ for(w in seq(0.1,2,0.1)){
     )
     cat(w, mean(mus_after_burnin), mean(ts_after_burnin), acceptance_ratio, '\n', sep="\t")
 }
-
-
