@@ -5,7 +5,7 @@ The solutions manual is tentatively provided by **Sishuo Wang** and **Jianhao Lv
 * [Jianhao Lv](https://sxy.nfu.edu.cn/xygk/szdw/szql/zj/c9cea5751f3c448585440f7b5b4a46bc.htm ) is a lecturer at Nanfang College, Guangzhou, China.
 * Interestingly, Ziheng Yang and both of the authors are alumni of China Agricultural University.
 
-We hope the solutions manual plays a tiny role in helping people better understand Ziheng's books and appreciate molecular phylogenetics from a statistics perspective.
+We hope the solutions manual plays a tiny role in helping people better understand Ziheng's books and appreciate molecular phylogenetics from a statistics perspective. You are strongly encouraged to share your feedback and explore alternative solutions via this GitHub platform. Your contributions can help foster a community-driven effort to assist anyone interested in delving deeper into molecular evolution.
 
 # Notes
 1. The solutions manual has NOT been reviewed, so by no means are the solutions to be taken as a “standard answer”. Instead, we aim to help biologists better understand computational molecular evolution by providing
