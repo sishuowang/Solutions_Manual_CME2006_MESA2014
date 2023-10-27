@@ -18,7 +18,7 @@ We hope the solutions manual plays a tiny role in helping people better understa
 
 3. Ziheng provided very insightful solututions to four problems of Yang 2006 [https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf](https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf). For these problems, we try to provide different solutions where possible, as also indicated above.
   
-4. The solutions manual is provided in both pdf format and markdown-based view. Note that there might be errors in format conversion for the markdown file (.md) due to unexpected format conversion errors.
+4. The solutions manual is provided in both pdf format and markdown-based view.
 
 # Citation
 1. Wang Sishuo, Lv Jianhao, A Solutions Manual for Ziheng Yang's <i>Computational Molecular Evolution</i> Exercises, (2023).
