@@ -21,8 +21,8 @@ We hope the solutions manual plays a tiny role in helping people better understa
 4. The solutions manual is provided in both pdf format and markdown-based view.
 
 # Citation
-1. Wang Sishuo, Lv Jianhao, A Solutions Manual for Ziheng Yang's <i>Computational Molecular Evolution</i> Exercises, (2023).
-2. Wang Sishuo, Lv Jianhao, A Solutions Manual for Ziheng Yang's <i>Molecular Evolution: A Statistical Approach</i> Exercises, (2023). [**coming soon**]
+1. Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <i>Computational Molecular Evolution</i>, (2023).
+2. Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <i>Molecular Evolution: A Statistical Approach</i>, (2023). [**coming soon**]
 
 The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
