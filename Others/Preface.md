@@ -35,7 +35,9 @@ memories of those calculus, linear algebra, and statistics knowledge,
 and apply them in research.
 
 Note that by no means are the solutions to be taken as "standard
-answers". Instead, I wish it can play a tiny role in bridging the divide
+answers". This might particularly be the case for the present solutions 
+manual where the solutions are not given by the author of the original books.
+Instead, I wish that the solutions manual can play a tiny role in bridging the divide
 between people with various backgrounds to work together on biological
 questions. Just like Ziheng, Jianhao, and I, who enrolled in different
 programs when studying at CAU---animal sciences, math, and biology---are
@@ -45,8 +47,7 @@ feedback, alternative solutions and error report at GitHub
 <https://github.com/sishuowang/Solutions_Manual_CME2006_MESA2014/>
 or by e-mail [sishuowang{at}hotmail.ca](mailto:sishuowang@hotmail.ca).
 For citation, please refer to the GitHub repository. The solutions
-manual is distributed under CC-BY 4.0. I take full responsibility for
-any errors of the solutions.
+manual is distributed under CC-BY 4.0.
 
 Needless to say, I particularly thank Ziheng for providing so many
 interesting problems and for his encouragement. I am also very grateful
