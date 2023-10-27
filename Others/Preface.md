@@ -45,7 +45,7 @@ brought together by computational molecular evolution. Note that there
 is an associated GitHub repository. Readers are welcome to provide
 feedback, alternative solutions and error report at GitHub
 <https://github.com/sishuowang/Solutions_Manual_CME2006_MESA2014/>
-or by e-mail [sishuowang{at}hotmail.ca](mailto:sishuowang@hotmail.ca).
+or by e-mail sishuowang{at}hotmail.ca.
 For citation, please refer to the GitHub repository. The solutions
 manual is distributed under CC-BY 4.0.
 
