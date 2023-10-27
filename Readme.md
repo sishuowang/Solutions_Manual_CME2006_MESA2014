@@ -14,7 +14,7 @@ We hope the solutions manual plays a tiny role in helping people better understa
    * code as R as possible (as that's familiar to most biologists), from **programming** to **calculus, linear algebra and statistical computation**
    * alternative solutions where possible.
 
-2. The problems cover only a small part of the books so it is highly recommended to carefully read the original book for those interested.
+2. The problems cover only a tip of the iceberg of the original books by Ziheng so it is highly recommended to carefully read the original book for those interested.
 
 3. Ziheng provided very insightful solututions to four problems of Yang 2006 [https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf](https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf). For these problems, we try to provide different solutions where possible, as also indicated above.
   
