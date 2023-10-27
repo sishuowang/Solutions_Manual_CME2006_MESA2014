@@ -16,7 +16,7 @@ We hope the solutions manual plays a tiny role in helping people better understa
 
 2. The problems cover only a small part of the books so it is highly recommended to carefully read the original book for those interested.
 
-3. Ziheng provided very nice solututions to a few problems [https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf](https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf). For these problems, we try to provide different solutions where possible, as also indicated above.
+3. Ziheng provided very insightful solututions to four problems of Yang 2006 [https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf](https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf). For these problems, we try to provide different solutions where possible, as also indicated above.
   
 4. The solutions manual is provided in both pdf format and markdown-based view. Note that there might be errors in format conversion for the markdown file (.md) due to unexpected format conversion errors.
 
