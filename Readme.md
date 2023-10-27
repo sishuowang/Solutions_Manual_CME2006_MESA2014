@@ -2,7 +2,7 @@ This project provides a solutions manual for all excercises in the Ziheng Yang's
 
 Authors: **Sishuo Wang**, **Jianhao Lv** (interestingly, Ziheng Yang and both authors are alumni of China Agricultural University)
 * [Sishuo Wang](https://www.cuhk.edu.hk/med/mic/People/Sishuo.html) is a research assistant professor in Department of Microbiology, Faculty of Medicine, The Chinese University of Hong Kong, Hong Kong SAR, China.
-* [Jianhao Lv](https://sxy.nfu.edu.cn/xygk/szdw/szql/zj/c9cea5751f3c448585440f7b5b4a46bc.htm ) is a lecturer at Nanfang College, Guangzhou, China.
+* [Jianhao Lv](https://sxy.nfu.edu.cn/xygk/szdw/szql/zj/c9cea5751f3c448585440f7b5b4a46bc.htm ) is a lecturer in maths at Nanfang College, Guangzhou, China.
 
 We hope the solutions manual plays a tiny role in helping people better understand Ziheng's books and appreciate molecular phylogenetics from a statistics perspective.
 
