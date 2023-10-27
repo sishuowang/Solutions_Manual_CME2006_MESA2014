@@ -6,7 +6,7 @@ Authors: **Sishuo Wang**, **Jianhao Lv** (interestingly, Ziheng Yang and both au
 
 We hope the solutions manual plays a tiny role in helping people better understand Ziheng's books and appreciate molecular phylogenetics from a statistics perspective.
 
-**You are strongly encouraged to share your feedback and explore alternative solutions via this GitHub platform**. Your contributions can help foster a community-driven effort to assist anyone interested in delving deeper into molecular evolution.
+**You are strongly encouraged to share your feedback and explore alternative solutions via this GitHub platform**. Your contributions are important to help foster a community-driven effort to assist anyone interested in delving deeper into molecular evolution.
 
 # Notes
 1. The solutions manual has NOT been reviewed, so by no means are the solutions to be taken as a “standard answer”. Instead, we aim to help biologists better understand computational molecular evolution by providing
