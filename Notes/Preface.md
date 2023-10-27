@@ -3,7 +3,7 @@
 It was in the library of the western campus of China Agricultural
 University (CAU) that I, a second-year undergraduate, first encountered
 *Computational Molecular Evolution* by Ziheng Yang (Yang 2006). In the
-past 15 years, I have greatly benefited too much from this book and its
+past 15 years, I have benefited too much from this book and its
 following *Molecular Evolution: A Statistical Approach* (Yang 2014),
 both of which make my study of molecular phylogenetics not only much
 easier but truly enjoyable. Different from most biology books, Yang 2006
