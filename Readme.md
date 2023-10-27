@@ -30,4 +30,4 @@ The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.or
 We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. We also thank Mario dos Reis for providing alternative scripts for Exercise 5.5 in Yang 2006.
 
 # Contact
-For any comments or error reports, please feel free to use github or contact Sishuo Wang at **sishuowang{at}hotmail.ca**.
+For any comments or error reports, please feel free to use github or contact Sishuo Wang at **sishuowang{at}hotmail.ca**. If you feel this is helpful, please do not forget to send beers or coffees to [my place](https://sishuowang2022.wordpress.com/home-2/).
