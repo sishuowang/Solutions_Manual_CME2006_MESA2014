@@ -9,7 +9,7 @@ We hope the solutions manual plays a tiny role in helping people better understa
 **You are strongly encouraged to share your feedback and explore alternative solutions via this GitHub platform**. Your contributions are important to help foster a community-driven effort to assist anyone interested in delving deeper into molecular evolution.
 
 # Notes
-1. The solutions manual has NOT been reviewed, so by no means are the solutions to be taken as a “standard answer”. Instead, we aim to help biologists better understand computational molecular evolution by providing
+1. The solutions manual has NOT been reviewed, so by no means are the solutions to be taken as a “standard answer”. This could particularly be the case for the present solutions manual which is not given by the author of the original book (Ziheng). Instead, we aim to help biologists better understand computational molecular evolution by providing
    * very detailed step-by-step solutions
    * code as R as possible (as that's familiar to most biologists), from **programming** to **calculus, linear algebra and statistical computation**
    * alternative solutions where possible.
