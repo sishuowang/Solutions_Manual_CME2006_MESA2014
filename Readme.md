@@ -19,8 +19,7 @@ We hope the solutions manual plays a tiny role in helping better understand Zihe
 3. Ziheng provided very insightful solututions to four problems of Yang 2006 [https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf](https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf). For these problems, we try to provide different solutions where possible, as also indicated above.
 
 # Citation
-1. Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <i>Computational Molecular Evolution</i>, (2023).
-2. Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <i>Molecular Evolution: A Statistical Approach</i>, (2023). [**coming soon**]
+Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <i>Computational Molecular Evolution</i>, and <i>Molecular Evolution: A Statistical Approach</i> (2023).
 
 The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
