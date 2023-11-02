@@ -12,8 +12,7 @@ by providing hands-on practice to reinforce the concepts and enhancing
 understanding. However, the solutions are notably absent, apparently
 limiting people from delving deeper into the field.
 
-In SMBE2023 in Ferrara, Italy, I met Ziheng in person for the first
-time. I shared with him a challenging but lovely plan to work out every
+In SMBE2023 in Ferrara, Italy, I shared with Ziheng a challenging but lovely plan to work out every
 problem of the books, and received much enthusiastic support and
 encouragement. I then invited my mathematician friend Jianhao Lv to join
 this work. The way of our collaboration is as follows. I worked out all
