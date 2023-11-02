@@ -9,16 +9,14 @@ We hope the solutions manual plays a tiny role in helping people better understa
 **You are strongly encouraged to share your feedback and explore alternative solutions via this GitHub platform**. Your contributions are important to help foster a community-driven effort to assist anyone interested in delving deeper into molecular evolution.
 
 # Notes
-1. The solutions manual has NOT been reviewed, so by no means are the solutions to be taken as a “standard answer”. This could particularly be the case for the present solutions manual which is not given by the author of the original book (Ziheng). Instead, we aim to help biologists better understand computational molecular evolution by providing
+1. The solutions manual has NOT been reviewed, so by no means are the solutions to be taken as a “standard answer”. Instead, we aim to help biologists better understand computational molecular evolution by providing
    * very detailed step-by-step solutions
    * code as R as possible (as that's familiar to most biologists), from **programming** to **calculus, linear algebra and statistical computation**
    * alternative solutions where possible.
 
-2. The problems cover only a tip of the iceberg of the original books by Ziheng so it is highly recommended to carefully read the original book for those interested.
+2. The problems cover only **a tip of the iceberg of the original books** so it is always highly recommended to carefully read the original books.
 
 3. Ziheng provided very insightful solututions to four problems of Yang 2006 [https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf](https://abacus.gene.ucl.ac.uk/CME/Yang2006CME.Exercises.pdf). For these problems, we try to provide different solutions where possible, as also indicated above.
-  
-4. The solutions manual is provided in both pdf format and markdown-based view.
 
 # Citation
 1. Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <i>Computational Molecular Evolution</i>, (2023).
