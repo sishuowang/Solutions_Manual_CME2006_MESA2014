@@ -24,7 +24,7 @@ Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <
 The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 # Acknowledgements
-We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. We also thank Mario dos Reis for providing alternative scripts for Exercise 5.5 in Yang 2006.
+We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. We thank Mario dos Reis for providing an alternative script for Exercise 5.5 in Yang 2006. We are also grateful for Chun Man Chan for critically reading the brochure.
 
 # Contact
 For any comments or error reports, please feel free to use github or contact Sishuo Wang at **sishuowang{at}hotmail.ca**.
