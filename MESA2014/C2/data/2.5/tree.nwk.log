@@ -1,0 +1,30 @@
+IQ-TREE multicore version 2.2.2.6 COVID-edition for Linux 64-bit built May 27 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    cuhk-mic (AVX512, FMA3, 376 GB RAM)
+Command: iqtree --alisim alignment_codon -m MG2K{1,2}+FQ --length 3000 -t tree.nwk -af phy -quiet
+Seed:    755435 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Aug 17 16:09:29 2023
+Kernel:  AVX+FMA - 1 threads (72 CPU cores detected)
+
+[Alignment Simulator] Executing
+ - Tree filepath: tree.nwk
+ - Length of output sequences: 3000
+ - Model: MG2K{1,2}+FQ
+ - Number of output datasets: 1
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: MG2K+FQ
+
+State frequencies: (equal frequencies)
+
+Model of rate heterogeneity: Uniform
+
+Nonsynonymous/synonymous ratio (omega): 1.000
+Transition/transversion ratio (kappa): 2.000
+Transition/transversion ratio 2 (kappa2): 1.000
+[Alignment Simulator] Done
+Simulation time: 0.013s
+Date and Time: Thu Aug 17 16:09:29 2023
