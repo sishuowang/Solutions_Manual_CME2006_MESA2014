@@ -46,6 +46,10 @@ x <- 90; n<-948
 w <- 0.3; nsample <- 1e6
 
 for(w in seq(0.1,1,0.1)){
+    if(w == 0.1){
+        cat("step_(w)", "rate_(mu)", "time_(T)", "acc_ratio_of_mu", "acc_ratio_of_T", "\n", sep = "\t")
+    }
+
     res <- do_mcmc(w=w, nsample=nsample, n=n, x=x)
     mus <- res$mus; ts<-res$ts ; accepts.mu <- res$accepts.mu;  accepts.t <- res$accepts.t
     burnin <- round(nsample/2)
