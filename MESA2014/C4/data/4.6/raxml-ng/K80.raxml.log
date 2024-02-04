@@ -1,0 +1,116 @@
+
+RAxML-NG v. 1.2.0 released on 09.05.2023 by The Exelixis Lab.
+Developed by: Alexey M. Kozlov and Alexandros Stamatakis.
+Contributors: Diego Darriba, Tomas Flouri, Benoit Morel, Sarah Lutteropp, Ben Bettisworth, Julia Haag, Anastasis Togkousidis.
+Latest version: https://github.com/amkozlov/raxml-ng
+Questions/problems/suggestions? Please visit: https://groups.google.com/forum/#!forum/raxml
+
+System: Intel(R) Xeon(R) Gold 6154 CPU @ 3.00GHz, 36 cores, 376 GB RAM
+
+RAxML-NG was called at 04-Oct-2023 14:49:31 as follows:
+
+raxml-ng --redo --msa ../rbcL.nogaps_amb.fas --model K80 --prefix K80
+
+Analysis options:
+  run mode: ML tree search
+  start tree(s): random (10) + parsimony (10)
+  random seed: 1696402171
+  tip-inner: OFF
+  pattern compression: ON
+  per-rate scalers: OFF
+  site repeats: ON
+  logLH epsilon: general: 10.000000, brlen-triplet: 1000.000000
+  fast spr radius: AUTO
+  spr subtree cutoff: 1.000000
+  fast CLV updates: ON
+  branch lengths: proportional (ML estimate, algorithm: NR-FAST)
+  SIMD kernels: AVX2
+  parallelization: coarse-grained (auto), PTHREADS (auto)
+
+WARNING: Running in REDO mode: existing checkpoints are ignored, and all result files will be overwritten!
+
+[00:00:00] Reading alignment from file: ../rbcL.nogaps_amb.fas
+[00:00:00] Loaded alignment with 12 taxa and 1312 sites
+
+Alignment comprises 1 partitions and 285 patterns
+
+Partition 0: noname
+Model: K80
+Alignment sites / patterns: 1312 / 285
+Gaps: 0.00 %
+Invariant sites: 72.87 %
+
+
+NOTE: Binary MSA file created: K80.raxml.rba
+
+Parallelization scheme autoconfig: 20 worker(s) x 1 thread(s)
+
+[00:00:00] Generating 10 random starting tree(s) with 12 taxa
+[00:00:00] Generating 10 parsimony starting tree(s) with 12 taxa
+Parallel parsimony with 20 threads
+Parallel reduction/worker buffer size: 1 KB  / 0 KB
+
+[00:00:00] Data distribution: max. partitions/sites/weight per thread: 1 / 285 / 1140
+[00:00:00] Data distribution: max. searches per worker: 1
+
+Starting ML tree search with 20 distinct starting trees
+
+[00:00:00 -7341.146903] Initial branch length optimization
+[00:00:00 -6306.937525] Model parameter optimization (eps = 10.000000)
+[00:00:00 -6137.344896] AUTODETECT spr round 1 (radius: 5)
+[00:00:00 -5713.779009] AUTODETECT spr round 2 (radius: 10)
+[00:00:00 -5627.417101] SPR radius for FAST iterations: 10 (autodetect)
+[00:00:00 -5627.417101] Model parameter optimization (eps = 3.000000)
+[00:00:00 -5627.194165] FAST spr round 1 (radius: 10)
+[00:00:00 -5586.517013] FAST spr round 2 (radius: 10)
+[00:00:00 -5565.407183] FAST spr round 3 (radius: 10)
+[00:00:00 -5565.405465] Model parameter optimization (eps = 1.000000)
+[00:00:00 -5565.203723] SLOW spr round 1 (radius: 5)
+[00:00:00 -5565.203720] SLOW spr round 2 (radius: 10)
+[00:00:00] [worker #12] ML tree search #13, logLikelihood: -5565.203720
+[00:00:00] [worker #16] ML tree search #17, logLikelihood: -5565.203720
+[00:00:00 -5565.203720] Model parameter optimization (eps = 0.100000)
+[00:00:00] [worker #13] ML tree search #14, logLikelihood: -5565.203720
+[00:00:00] [worker #17] ML tree search #18, logLikelihood: -5565.203720
+[00:00:00] [worker #2] ML tree search #3, logLikelihood: -5565.203720
+
+[00:00:00] [worker #0] ML tree search #1, logLikelihood: -5565.203720
+
+[00:00:00] [worker #19] ML tree search #20, logLikelihood: -5565.203720
+[00:00:00] [worker #10] ML tree search #11, logLikelihood: -5565.203720
+[00:00:00] [worker #15] ML tree search #16, logLikelihood: -5565.203720
+[00:00:00] [worker #18] ML tree search #19, logLikelihood: -5565.203720
+[00:00:00] [worker #8] ML tree search #9, logLikelihood: -5565.203720
+[00:00:00] [worker #14] ML tree search #15, logLikelihood: -5565.203720
+[00:00:00] [worker #5] ML tree search #6, logLikelihood: -5565.203720
+[00:00:00] [worker #1] ML tree search #2, logLikelihood: -5565.203720
+[00:00:00] [worker #9] ML tree search #10, logLikelihood: -5565.203720
+[00:00:00] [worker #11] ML tree search #12, logLikelihood: -5565.203720
+[00:00:00] [worker #6] ML tree search #7, logLikelihood: -5565.203720
+[00:00:00] [worker #4] ML tree search #5, logLikelihood: -5565.203720
+[00:00:00] [worker #3] ML tree search #4, logLikelihood: -5565.203720
+[00:00:00] [worker #7] ML tree search #8, logLikelihood: -5565.203720
+
+Optimized model parameters:
+
+   Partition 0: noname
+   Rate heterogeneity: NONE
+   Base frequencies (model): 0.250000 0.250000 0.250000 0.250000 
+   Substitution rates (ML): 1.000000 3.658783 1.000000 1.000000 3.658783 1.000000 
+
+
+Final LogLikelihood: -5565.203720
+
+AIC score: 11174.407439 / AICc score: 11175.192544 / BIC score: 11288.352215
+Free parameters (model + branch lengths): 22
+
+Best ML tree saved to: /home/sishuo/project/Yang/2014/Chapter4/4.6/raxml-ng/K80.raxml.bestTree
+All ML trees saved to: /home/sishuo/project/Yang/2014/Chapter4/4.6/raxml-ng/K80.raxml.mlTrees
+Optimized model saved to: /home/sishuo/project/Yang/2014/Chapter4/4.6/raxml-ng/K80.raxml.bestModel
+
+Execution log saved to: /home/sishuo/project/Yang/2014/Chapter4/4.6/raxml-ng/K80.raxml.log
+
+Analysis started: 04-Oct-2023 14:49:31 / finished: 04-Oct-2023 14:49:31
+
+Elapsed time: 0.434 seconds
+

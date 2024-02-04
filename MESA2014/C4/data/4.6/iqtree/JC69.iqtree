@@ -1,0 +1,117 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: ../rbcL.nogaps_amb.fas
+Type of analysis: tree reconstruction
+Random seed number: 9911
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 12 sequences with 1312 nucleotide sites
+Number of constant sites: 956 (= 72.8659% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 956 (= 72.8659% of all sites)
+Number of parsimony informative sites: 212
+Number of distinct site patterns: 285
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: JC
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 1.0000
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 1.0000
+  G-T: 1.0000
+
+State frequencies: (equal frequencies)
+
+Rate matrix Q:
+
+  A        -1    0.3333    0.3333    0.3333
+  C    0.3333        -1    0.3333    0.3333
+  G    0.3333    0.3333        -1    0.3333
+  T    0.3333    0.3333    0.3333        -1
+
+Model of rate heterogeneity: Uniform
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -5703.9666 (s.e. 173.6764)
+Unconstrained log-likelihood (without tree): -4025.0319
+Number of free parameters (#branches + #model parameters): 21
+Akaike information criterion (AIC) score: 11449.9331
+Corrected Akaike information criterion (AICc) score: 11450.6494
+Bayesian information criterion (BIC) score: 11558.6986
+
+Total tree length (sum of branch lengths): 0.5702
+Sum of internal branch lengths: 0.1434 (25.1589% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'kiwi_fruit' is drawn at root
+
++------------kiwi_fruit
+|
+|                             +------------agave
+|                      +------|
+|                      |      +-------garlic
+|             +--------|
+|             |        +-----------------------------------rice
+|  +----------|
+|  |          +-------------------------black_pepper
++--|
+|  |        +---------------------cabbage
+|  |  +-----|
+|  |  |     +-------------cotton
+|  +--|
+|     |     +---------------cucumber
+|     +-----|
+|           +--------walnut
+|
+|   +---------------------sunflower
++---|
+    |             +--tomato
+    +-------------|
+                  +--tobacco
+
+Tree in newick format:
+
+(kiwi_fruit:0.0298097836,((((agave:0.0293691846,garlic:0.0191942916):0.0158347175,rice:0.0828527395):0.0203837734,black_pepper:0.0585536925):0.0265436044,((cabbage:0.0501411962,cotton:0.0334888343):0.0144811852,(cucumber:0.0372687949,walnut:0.0214060520):0.0136348620):0.0045284431):0.0047920944,(sunflower:0.0515776609,(tomato:0.0089327940,tobacco:0.0041234124):0.0336174657):0.0096314239);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t JC69.treefile -m "JC" --length 1312
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ../rbcL.nogaps_amb.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ../rbcL.nogaps_amb.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Oct  4 14:49:25 2023
+Total CPU time used: 0.587406 seconds (0h:0m:0s)
+Total wall-clock time used: 0.390722 seconds (0h:0m:0s)
+

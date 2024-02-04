@@ -1,0 +1,131 @@
+IQ-TREE 2.2.2.6 COVID-edition built May 27 2023
+
+Input file name: ../rbcL.nogaps_amb.fas
+Type of analysis: tree reconstruction
+Random seed number: 461948
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 12 sequences with 1312 nucleotide sites
+Number of constant sites: 956 (= 72.8659% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 956 (= 72.8659% of all sites)
+Number of parsimony informative sites: 212
+Number of distinct site patterns: 285
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G5
+
+Rate parameter R:
+
+  A-C: 1.6844
+  A-G: 3.9992
+  A-T: 0.6242
+  C-G: 1.3629
+  C-T: 5.7282
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2727
+  pi(C) = 0.1937
+  pi(G) = 0.2428
+  pi(T) = 0.2907
+
+Rate matrix Q:
+
+  A   -0.8592    0.1896    0.5642    0.1054
+  C    0.2669    -1.427    0.1923    0.9674
+  G    0.6337    0.1534    -0.956    0.1689
+  T    0.0989    0.6447    0.1411   -0.8847
+
+Model of rate heterogeneity: Gamma with 5 categories
+Gamma shape alpha: 0.2009
+
+ Category  Relative_rate  Proportion
+  1         0.0001807      0.2
+  2         0.01123        0.2
+  3         0.1201         0.2
+  4         0.6686         0.2
+  5         4.2            0.2
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -5228.5813 (s.e. 153.1105)
+Unconstrained log-likelihood (without tree): -4025.0319
+Number of free parameters (#branches + #model parameters): 30
+Akaike information criterion (AIC) score: 10517.1625
+Corrected Akaike information criterion (AICc) score: 10518.6145
+Bayesian information criterion (BIC) score: 10672.5418
+
+Total tree length (sum of branch lengths): 0.7086
+Sum of internal branch lengths: 0.1608 (22.6863% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'kiwi_fruit' is drawn at root
+
++---------kiwi_fruit
+|
+|                         +----------agave
+|                     +---|
+|                     |   +------garlic
+|            +--------|
+|            |        +--------------------------------------rice
+|  +---------|
+|  |         +------------------------black_pepper
++--|
+|  |      +--------------------cabbage
+|  |  +---|
+|  |  |   +-----------cotton
+|  +--|
+|     |   +--------------cucumber
+|     +---|
+|         +-------walnut
+|
+|  +---------------------sunflower
++--|
+   |             +--tomato
+   +-------------|
+                 +--tobacco
+
+Tree in newick format:
+
+(kiwi_fruit:0.0334051015,((((agave:0.0349093318,garlic:0.0217349670):0.0129514125,rice:0.1204067012):0.0279074573,black_pepper:0.0767491433):0.0320149079,((cabbage:0.0667992522,cotton:0.0393494368):0.0149561647,(cucumber:0.0467378733,walnut:0.0257290769):0.0126811300):0.0054817996):0.0022135057,(sunflower:0.0682282492,(tomato:0.0100664535,tobacco:0.0037240217):0.0433274227):0.0092199536);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t GTR+G5.treefile -m "GTR{1.68442,3.99922,0.624186,1.3629,5.72819}+F{0.272739,0.193725,0.242823,0.290714}+G5{0.200937}" --length 1312
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ../rbcL.nogaps_amb.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ../rbcL.nogaps_amb.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Wed Oct  4 14:49:30 2023
+Total CPU time used: 1.09342 seconds (0h:0m:1s)
+Total wall-clock time used: 0.923457 seconds (0h:0m:0s)
+
