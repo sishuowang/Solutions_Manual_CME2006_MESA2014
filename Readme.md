@@ -23,7 +23,7 @@ Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <
 
 The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-**Note that the solutions to those after Chapter 8 of MESA2014 have not been uploaded to github (2024.02.21)**.
+**Note that the solutions to those after Chapter 7 of MESA2014 have not been uploaded to github**.
 
 # Acknowledgements
 We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. We also thank Mario dos Reis for an alternative script for Exercise 5.5 in Yang 2006, and Chun Man Chan and Youhua Chen for comments on an early version of the brochure.
