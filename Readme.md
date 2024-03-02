@@ -26,7 +26,7 @@ The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.or
 **Note that the solutions to those after Chapter 7 of MESA2014 have not been uploaded to github**.
 
 # Acknowledgements
-We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. We also thank Mario dos Reis for an alternative script for Exercise 5.5 in Yang 2006, and Chun Man Chan and Youhua Chen for comments on an early version of the brochure.
+We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. A list of people to acknowledge is included under the folder "Notes/".
 
 # Contact
 For any comments or error reports, please feel free to use github or contact Sishuo Wang at **sishuowang{at}hotmail.ca**.
