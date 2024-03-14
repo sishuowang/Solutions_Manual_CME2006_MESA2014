@@ -25,7 +25,7 @@ Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <
 
 The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
-**Note that the solutions to a few in Chapters 7 & 8 of MESA2014 are yet to be uploaded to github**.
+**Note that the solutions to a few in Chapter 7 of MESA2014 are yet to be uploaded to github**.
 
 # Acknowledgements
 We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. A list of people to acknowledge is included under the folder "Notes/".
