@@ -8,6 +8,8 @@ We hope the solutions manual plays a tiny role in helping better understand Zihe
 
 **You are strongly encouraged to share your feedback and explore alternative solutions via this GitHub platform**. Your contributions are important to help foster a community-driven effort to assist anyone interested in delving deeper into molecular evolution.
 
+**This work has never received any fund and indeed was rejected in applications for 2 grants and 2 conferences. It is purely the enthisasium that supports the completion of the work. If you like the idea, please do not hesitate to star the github. Your help is highly appreciated.**
+
 # Notes
 1. The solutions manual has NOT been reviewed, so by no means are the solutions to be taken as a “standard answer”. Instead, we aim to help biologists better understand computational molecular evolution by providing
    * very detailed step-by-step solutions
