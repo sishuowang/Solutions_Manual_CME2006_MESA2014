@@ -1,0 +1,10 @@
+  4 1
+
+((human, chimp) '=0.07', (baboon, rhesus) '=.06');   * clock tree
+
+
+// end of file
+
+
+((human, chimp), (baboon, rhesus));   * clock tree
+
