@@ -21,7 +21,7 @@ The solutions manual has NOT been reviewed, and is probably never going to be, b
 4. This work has never received any fund and indeed was unfortunately rejected in applications for 2 grants. It's purely by the enthusiasm for molecular evolution education and science communication that the authors complete the work. **If you find this github repository helpful, please consider ★ it.**
 
 # Citation
-Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <i>Computational Molecular Evolution</i>, and <i>Molecular Evolution: A Statistical Approach</i> (2023).
+Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <i>Computational Molecular Evolution</i>, and <i>Molecular Evolution: A Statistical Approach</i> (2024).
 
 The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
