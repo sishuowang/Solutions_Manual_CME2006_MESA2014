@@ -1,0 +1,13 @@
+log10_lik_JC69 <- function(d, n, x, a, b){
+    log(dgamma(d, a, b)) + x*log(3/4-3/4*exp(-4/3*d)) + (n-x)*log(1/4+3/4*exp(-4/3*d)) / log(10)
+}
+########################################
+x <- 90; n<-948
+pdf("7.6.pdf"); par(mfrow=c(1,2))
+posterior <- expression('log10(f('*theta*'|D))'); theta <- expression(italic(theta))
+df <- data.frame(c(100,10), c(50,5))
+for(i in 1:length(df)){
+    v <- df[,i]
+    curve(log10_lik_JC69(d=x,n=n,x=x,a=v[1],b=v[2]), from=0, to=25, ylab=posterior, xlab=theta, main=paste0("G(",v[1],',',v[2],")"))
+}
+dev.off()
