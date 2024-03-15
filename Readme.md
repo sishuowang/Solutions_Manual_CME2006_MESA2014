@@ -1,8 +1,8 @@
 This project provides a solutions manual for all excercises in the Ziheng Yang's two seminal books on statistical molecular evolution: [<i>Computational Molecular Evolution</i>](http://abacus.gene.ucl.ac.uk/CME/) (CME2006) [Yang 2006] and [<i>Molecular Evolution: A Statistical Approach</i>](http://abacus.gene.ucl.ac.uk/MESA/) (MESA2014) [Yang 2014].
 
 Authors: **Sishuo Wang**, **Jianhao Lv** (interestingly, Ziheng Yang and both authors are alumni of China Agricultural University)
-* [Sishuo Wang](https://www.cuhk.edu.hk/med/mic/People/Sishuo.html) is a research assistant professor in Department of Microbiology, Faculty of Medicine, The Chinese University of Hong Kong, Hong Kong SAR, China.
-* [Jianhao Lv](https://sxy.nfu.edu.cn/xygk/szdw/szql/zj/c9cea5751f3c448585440f7b5b4a46bc.htm ) is a lecturer in maths at Nanfang College, Guangzhou, China.
+* [Sishuo Wang](https://www.cuhk.edu.hk/med/mic/People/Sishuo.html) is from Department of Microbiology, Faculty of Medicine, The Chinese University of Hong Kong, Hong Kong SAR, China.
+* [Jianhao Lv](https://sxy.nfu.edu.cn/xygk/szdw/szql/zj/c9cea5751f3c448585440f7b5b4a46bc.htm ) is from Nanfang College, Guangzhou, China.
 
 We hope the solutions manual plays a tiny role in helping better understand Ziheng's books and appreciate molecular phylogenetics from a statistics perspective.
 
