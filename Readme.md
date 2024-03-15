@@ -4,7 +4,7 @@ Authors: **Sishuo Wang**, **Jianhao Lv** (interestingly, Ziheng Yang and both au
 * [Sishuo Wang](https://www.cuhk.edu.hk/med/mic/People/Sishuo.html) is from Department of Microbiology, Faculty of Medicine, The Chinese University of Hong Kong, Hong Kong SAR, China.
 * [Jianhao Lv](https://sxy.nfu.edu.cn/xygk/szdw/szql/zj/c9cea5751f3c448585440f7b5b4a46bc.htm ) is from Nanfang College, Guangzhou, China.
 
-We hope the solutions manual plays a tiny role in helping better understand Ziheng's books and appreciate molecular phylogenetics from a statistics perspective.
+We hope the solutions manual plays a tiny role in frostering a community-driven effort to help better understand Ziheng's books and appreciate phylogenetics from a statistics perspective.
 
 **You are strongly encouraged to share your feedback and explore alternative solutions via this GitHub platform**. Your contributions are important to help foster a community-driven effort to assist anyone interested in delving deeper into molecular evolution.
 
