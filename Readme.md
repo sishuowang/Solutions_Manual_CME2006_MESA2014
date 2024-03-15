@@ -12,7 +12,7 @@ The solutions manual has NOT been reviewed, and is probably never going to be, b
 1. We aim to help biologists better understand computational molecular evolution by providing
    * very detailed step-by-step solutions
    * code as R as possible (as that's familiar to most biologists), from **programming** to **calculus, linear algebra and statistical computation**
-   * alternative solutions where possible.
+   * where possible, alternative solutions and both analytical and simulation solutions.
 
 2. The problems cover only **a tip of the iceberg of the original books** so it is always highly recommended to carefully read the original books.
 
