@@ -32,3 +32,5 @@ We are particularly grateful for Ziheng for providing so many interesting proble
 
 # Contact
 For any comments or error reports, please feel free to use github or contact Sishuo Wang at **sishuowang{at}hotmail.ca**.
+
+![](https://komarev.com/ghpvc/?username=sishuowang)
