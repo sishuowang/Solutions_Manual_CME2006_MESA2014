@@ -4,8 +4,9 @@ We extend our sincere gratitude to Ziheng Yang for generously providing numerous
 
 We also wish to thank the following individuals for their contributions:
 
-- Mario dos Reis: for providing an alternative script for Exercise 5.5 in Yang 2006.
-- Korbinian Strimmer: for contributing to Exercise 6.4 in Yang 2014.
+- Mario dos Reis: for providing an alternative script for Exercise 5.5 in CME2006.
+- Korbinian Strimmer: for contributing to Exercise 6.4 in MESA2014.
+- Klaus Schliep: for help in Problem 9.1 in MESA2014.
 
 We are also grateful to the following individuals for their comments on an early version of the brochure:
 
