@@ -28,7 +28,7 @@ The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.or
 **Note that the solutions to a few in Chapter 7 of MESA2014 are yet to be uploaded to github**.
 
 # Acknowledgements
-We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. A list of people to acknowledge is included under the folder "Notes/".
+We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. A list of people to acknowledge is included under the folder "Notes/". **Those problems that specifically need help or validation are listed there, too**.
 
 # Contact
 For any comments or error reports, please feel free to use github or contact Sishuo Wang at **sishuowang{at}hotmail.ca**.
