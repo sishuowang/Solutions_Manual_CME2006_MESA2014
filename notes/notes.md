@@ -1,1 +1,6 @@
 Interestingly, some of the exercises in Yang’s books are derived from classic papers and seminal works of the time. Tackling these exercises may help effectively organize the developmental context of related knowledge, thus a chance for current graduate students and early-career researchers to learn the history. Further, for the software operation exercises included in the present brochure, although PAML (Yang, 1993) is used in most exercises, I also include many others, including the last-century MEGA (1993), the “middle-aged” ape (2002) and RAxML (2006), the more recent ones such as IQ-Tree (2015) and RevBayes (2016), and the newest product in the AI era ChatGPT (2023; see 7.12 in Yang 2014). This hopefully provides readers with a better sense of the development of generations of those widely used (phylogenetic) software.
+
+**Problems that specifically need help.**
+- Problem 5.2 (ii) (CME2006)
+- Problem 7.8 (MESA2014)
+- Problem 9.3 (MESA2014)
