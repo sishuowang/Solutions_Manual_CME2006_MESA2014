@@ -11,4 +11,3 @@ We also wish to thank the following individuals for their contributions:
 We are also grateful to the following individuals for their comments on an early version of the brochure:
 
 - Chun Man Chan
-- Youhua Chen
