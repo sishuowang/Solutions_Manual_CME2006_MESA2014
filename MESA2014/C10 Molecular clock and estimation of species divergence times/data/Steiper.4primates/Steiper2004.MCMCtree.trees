@@ -1,0 +1,3 @@
+  4 1
+
+((human, chimp) '>.05<.08', (baboon, rhesus) '>.05<.08');

@@ -1,0 +1,53 @@
+8564        E
+8565        E
+8566        E
+8567        E
+8568        E
+8651        E
+1599        E
+1246        E
+1290        E
+1291        E
+1292        E
+MJ05_69     E
+MJ05_100    E
+8562        D
+8563        D
+8583        D
+8607        D
+2147        D
+MJ05_68     D
+MJ05_99     D
+
+dem1        D
+bou1        D
+nei_1996    D
+nei_1999    D
+ter1        D
+tur1        D
+ang1        D
+dem4        D
+dem2        D
+kar1        D
+kar2        D
+tit1        D
+tit2        D
+tam1        E
+tam3        E
+uly1        E
+uly2        E
+ers1        E
+tam2        E
+
+
+//end of file
+
+individual  species
+   1           A
+   2           A
+  ...
+
+This file maps individual IDs (1, 2, ...) to "species" names on the species guide tree.
+The individual IDs are specified at the end of each sequence in the sequence alignment
+file.  The species names are used in the species tree specified in the control file
+MCMCcoal.ctl.
