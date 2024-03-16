@@ -1,3 +1,8 @@
+**Problems that specifically need help.**
+- Problem 5.2 (ii) (CME2006)
+- Problem 7.8 (MESA2014)
+- Problem 9.3 (MESA2014)
+
 **Acknowledgements**
 
 We extend our sincere gratitude to Ziheng Yang for generously providing numerous intriguing problems in his books and for his encouragement throughout our work on the solutions.
