@@ -23,9 +23,12 @@ The solutions manual has NOT been formally reviewed, because everyone is welcome
 # Citation
 Wang Sishuo, Lv Jianhao, A Solutions Manual for The Exercises of Ziheng Yang's <i>Computational Molecular Evolution</i>, and <i>Molecular Evolution: A Statistical Approach</i> (2024).
 
-The solutions manual is distributed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
 **Note that the solutions to a few in Chapter 7 of MESA2014 are yet to be uploaded to github**.
+
+# Licence
+The solutions are distributed under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+All problem statements are restricted to Oxford Publisher.
 
 # Acknowledgements
 We are particularly grateful for Ziheng for providing so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. A list of people to acknowledge is included under the folder "Notes/". **Those problems that specifically need help or validation are listed there, too**.
