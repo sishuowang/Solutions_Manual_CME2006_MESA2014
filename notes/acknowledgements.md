@@ -1,7 +1,8 @@
 **Problems that specifically need help.**
-- Problem 5.2 (ii) (CME2006)
-- Problem 7.8 (MESA2014)
-- Problem 9.3 (MESA2014)
+- CME:
+-   Problem 5.2 (ii)
+- MESA:
+-   Problems 7.8, 8.2, 9.3
 
 **Acknowledgements**
 
