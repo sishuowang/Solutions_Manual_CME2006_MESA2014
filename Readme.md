@@ -1,4 +1,4 @@
-This project provides a solutions manual for all excercises in the Ziheng Yang's two seminal books on statistical molecular evolution: [<i>Computational Molecular Evolution</i>](http://abacus.gene.ucl.ac.uk/CME/) (CME2006) [Yang 2006] and [<i>Molecular Evolution: A Statistical Approach</i>](http://abacus.gene.ucl.ac.uk/MESA/) (MESA2014) [Yang 2014].
+This project provides a solutions manual for all excercises in the two influential books on statistical molecular evolution by Ziheng Yang: [<i>Computational Molecular Evolution</i>](http://abacus.gene.ucl.ac.uk/CME/) (CME) [Yang 2006] and [<i>Molecular Evolution: A Statistical Approach</i>](http://abacus.gene.ucl.ac.uk/MESA/) (MESA) [Yang 2014].
 
 Authors: **Sishuo Wang**, **Jianhao Lv** (interestingly, Ziheng Yang and both authors are alumni of China Agricultural University)
 * [Sishuo Wang](https://www.cuhk.edu.hk/med/mic/People/Sishuo.html) is from Department of Microbiology, Faculty of Medicine, The Chinese University of Hong Kong, Hong Kong SAR, China.
@@ -6,12 +6,12 @@ Authors: **Sishuo Wang**, **Jianhao Lv** (interestingly, Ziheng Yang and both au
 
 We hope the solutions manual plays a tiny role in helping people better understand Ziheng's books and appreciate phylogenetics from a statistics perspective.
 
-The solutions manual has NOT been reviewed, and is probably never going to be, because everyone is welcome to review it. So by no means are the solutions to be taken as a “standard answer”. **Instead, you are strongly encouraged to share your feedback and explore alternative solutions via this GitHub platform**. Your contributions are important to help foster a community-driven effort to assist anyone interested in delving deeper into molecular evolution.
+The solutions manual has NOT been formally reviewed, because everyone is welcome to review it. So by no means are the solutions to be taken as a “standard answer”. **Instead, you are strongly encouraged to share your feedback and explore alternative solutions via this GitHub platform**. Your contributions are important to help foster a community-driven effort to assist anyone interested in delving deeper into molecular evolution.
 
 # Notes
 1. We aim to help biologists better understand computational molecular evolution by providing
    * very detailed step-by-step solutions
-   * code as R as possible (as that's familiar to most biologists), from **programming** to **calculus, linear algebra and statistical computation**
+   * code as R as possible (as that's familiar to most biologists), from programming to calculus, linear algebra and statistical computation
    * where possible, alternative solutions and both analytical and simulation solutions.
 
 2. The problems cover only **a tip of the iceberg of the original books** so it is always highly recommended to carefully read the original books.
