@@ -31,7 +31,7 @@ The solutions are distributed under [CC-BY 4.0](https://creativecommons.org/lice
 All problem statements are restricted to Oxford Publisher.
 
 # Acknowledgements
-We are particularly grateful for **Ziheng** for roviding so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. A list of people to acknowledge is included under the folder "Notes/". **Those problems that specifically need help or validation are listed there, too**.
+We are particularly grateful for **Ziheng** for roviding so many interesting problems in his books, and for his encouragement during the process we worked on the solutions. A list of people to acknowledge is included under the folder "Notes/". Those problems that specifically need help or validation are listed there, too.
 
 # Contact
 For any comments or error reports, please feel free to use github or contact Sishuo Wang at **sishuowang{at}hotmail.ca**.
