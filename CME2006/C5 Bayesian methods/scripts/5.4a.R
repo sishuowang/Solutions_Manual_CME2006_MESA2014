@@ -44,7 +44,7 @@ do_mcmc <- function(w, nsample, n, x){
 
 ########################################
 x <- 90; n<-948
-w <- 0.3; nsample <- 100000
+w <- 0.3; nsample <- 10000
 
 for(w in seq(0.02,0.5,0.04)){
     res <- do_mcmc(w=w, nsample=nsample, n=n, x=x)
