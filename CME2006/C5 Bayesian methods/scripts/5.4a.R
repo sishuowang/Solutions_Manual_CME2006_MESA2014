@@ -2,6 +2,10 @@
 
 
 ########################################
+lnprior <- function(){
+	log(dunif(d,0,100))
+}
+
 lnl_JC69 <- function(d, n, x){
     x*log(3/4-3/4*exp(-4/3*d)) + (n-x)*log(1/4+3/4*exp(-4/3*d))
 }
