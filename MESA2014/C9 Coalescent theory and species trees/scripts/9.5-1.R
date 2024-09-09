@@ -4,9 +4,9 @@ library(expm)
 t=1.1; tau=1; theta=1; m=10000 # (m as if infinite)
 
 calc_Q <- function(m, t){
-    matrix(c(-2*(m+1/t), 2*m, 0, 2/t, 0,
+    matrix(c(-2*(m+1/theta), 2*m, 0, 2/t, 0,
              m, -2*m, m, 0, 0,
-             0, 2*m, -2*(m+1/t), 0, 2/t,
+             0, 2*m, -2*(m+1/theta), 0, 2/theta,
              0, 0, 0, -m, m,
              0, 0, 0, m, -m
     ),
